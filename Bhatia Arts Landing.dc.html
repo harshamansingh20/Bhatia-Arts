@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+  body { margin:0; background:#ffffff; -webkit-font-smoothing:antialiased; }
+  a { color:#f4623a; text-decoration:none; }
+  a:hover { color:#0f766e; }
+  ::selection { background:#f4623a; color:#fdf6ec; }
+</style>
+</helmet>
+
+<div style="font-family:'IBM Plex Sans',system-ui,sans-serif;color:#1f2937;background:#ffffff;overflow-x:hidden">
+
+  <header style="position:sticky;top:0;z-index:50;background:#1f2937;border-bottom:4px solid #f4623a">
+    <div style="max-width:1240px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap">
+      <a href="#top" style="display:flex;align-items:center;gap:14px;color:#fdf6ec">
+        <span style="font-family:'Archivo Black',system-ui,sans-serif;font-size:26px;letter-spacing:-0.01em;color:#fdf6ec">BHATIA ARTS</span>
+        <span style="width:10px;height:10px;background:#f4623a;transform:rotate(45deg);display:block"></span>
+        <span style="font-size:14px;font-style:italic;color:rgba(253,246,236,0.6)">the experienced innovation...</span>
+      </a>
+      <nav style="display:flex;align-items:center;gap:26px;flex-wrap:wrap;justify-content:flex-end;font-size:13.5px;font-weight:600;letter-spacing:0.03em">
+        <a href="#work" style="color:#fdf6ec">What We Do</a>
+        <a href="#about" style="color:#fdf6ec">About</a>
+        <a href="#why" style="color:#fdf6ec">Why Us</a>
+        <a href="#reviews" style="color:#fdf6ec">Reviews</a>
+        <a href="#contact" style="background:#f4623a;color:#fff;padding:13px 22px;letter-spacing:0.06em;text-transform:uppercase;font-size:12.5px;font-weight:700" style-hover="background:#0f766e">Get a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="top" style="background:#ffffff;color:#1f2937;border-bottom:1px solid rgba(31,41,55,0.10);padding:0 24px;position:relative">
+    <div style="max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:56px;align-items:center;padding:76px 0 84px">
+      <div>
+        <div style="display:inline-flex;align-items:center;gap:10px;background:#1f2937;color:#fdf6ec;padding:9px 18px;font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;margin-bottom:30px">
+          <span style="width:8px;height:8px;background:#f4623a;transform:rotate(45deg);display:block"></span>
+          Phagwara, Punjab · Since 1983
+        </div>
+        <h1 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:clamp(46px,5.8vw,82px);line-height:0.94;letter-spacing:-0.025em;margin:0 0 26px;text-wrap:balance;color:#1f2937">
+          Forty years of<br>putting your name<br>on <span style="background:#f4623a;color:#fdf6ec;padding:0 12px;display:inline-block">everything.</span>
+        </h1>
+        <p style="font-size:20px;line-height:1.55;color:rgba(31,41,55,0.72);max-width:46ch;margin:0 0 38px;text-wrap:pretty;font-weight:500">
+          Flex banners, boards, stickers, t-shirts, mementos and more — printed, finished and delivered by the same family workshop Phagwara has trusted since 1983.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+          <a href="#contact" style="background:#f4623a;color:#fff;padding:19px 36px;font-weight:700;font-size:15px;letter-spacing:0.05em;text-transform:uppercase" style-hover="background:#1f2937;color:#fdf6ec">Get a Quote</a>
+          <a href="tel:+911824000000" style="border:2.5px solid #1f2937;color:#1f2937;padding:16.5px 30px;font-weight:700;font-size:15px" style-hover="background:#1f2937;color:#ffffff">Call +91 1824 000 000</a>
+        </div>
+      </div>
+      <div style="position:relative">
+        <div style="position:absolute;inset:-18px -18px auto auto;width:58%;height:72%;background:#0f766e"></div>
+        <div style="position:relative;width:100%;aspect-ratio:4/5;border:5px solid #1f2937">
+          <image-slot id="ba-hero" shape="rect" placeholder="Workshop / signage photo"></image-slot>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="background:#1f2937;color:#fdf6ec;padding:0 24px;border-bottom:4px solid #f4623a">
+    <div style="max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;gap:12px 48px;padding:22px 0;font-size:13.5px;letter-spacing:0.18em;text-transform:uppercase;font-weight:700">
+      <span>Flex Banners</span><span style="color:#f4623a">/</span><span>Boards</span><span style="color:#f4623a">/</span><span>Stickers</span><span style="color:#f4623a">/</span><span>T-Shirts</span><span style="color:#f4623a">/</span><span>Mementos</span><span style="color:#f4623a">/</span><span>Flyers</span><span style="color:#f4623a">/</span><span>Canopy &amp; Standees</span>
+    </div>
+  </div>
+
+  <section id="work" style="padding:92px 24px;background:#ffffff">
+    <div style="max-width:1240px;margin:0 auto">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:44px">
+        <div>
+          <div style="display:inline-block;background:#0f766e;color:#fdf6ec;font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;padding:7px 14px;margin-bottom:18px">What we do</div>
+          <h2 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:clamp(34px,3.8vw,52px);line-height:1;letter-spacing:-0.025em;margin:0">Every kind of print,<br>under one roof.</h2>
+        </div>
+        <p style="font-size:16.5px;line-height:1.6;color:rgba(31,41,55,0.72);max-width:36ch;margin:0;font-weight:500">Design, printing and finishing handled in-house — so one call covers the whole job.</p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px">
+        <article style="background:#0f766e;color:#fdf6ec">
+          <div style="aspect-ratio:4/3;margin:10px 10px 0"><image-slot id="ba-flex" shape="rect" placeholder="Flex banner"></image-slot></div>
+          <div style="padding:20px 22px 26px">
+            <h3 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:21px;margin:0 0 8px;letter-spacing:-0.01em">Flex Banners</h3>
+            <p style="margin:0;font-size:14.5px;line-height:1.6;color:rgba(253,246,236,0.82)">Large-format printing for shopfronts, weddings and events. Eyelets and framing included.</p>
+          </div>
+        </article>
+        <article style="background:#f4623a;color:#1f2937">
+          <div style="aspect-ratio:4/3;margin:10px 10px 0"><image-slot id="ba-boards" shape="rect" placeholder="Sign board"></image-slot></div>
+          <div style="padding:20px 22px 26px">
+            <h3 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:21px;margin:0 0 8px;letter-spacing:-0.01em">Boards</h3>
+            <p style="margin:0;font-size:14.5px;line-height:1.6;color:rgba(31,41,55,0.82);font-weight:500">ACP, sunboard, acrylic and LED sign boards, fabricated and installed on site.</p>
+          </div>
+        </article>
+        <article style="background:#1f2937;color:#fdf6ec">
+          <div style="aspect-ratio:4/3;margin:10px 10px 0"><image-slot id="ba-stickers" shape="rect" placeholder="Stickers / vinyl"></image-slot></div>
+          <div style="padding:20px 22px 26px">
+            <h3 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:21px;margin:0 0 8px;letter-spacing:-0.01em;color:#f4623a">Stickers</h3>
+            <p style="margin:0;font-size:14.5px;line-height:1.6;color:rgba(253,246,236,0.78)">Vinyl cut, transparent and label stickers for vehicles, glass and packaging.</p>
+          </div>
+        </article>
+        <article style="background:#f4623a;color:#1f2937">
+          <div style="aspect-ratio:4/3;margin:10px 10px 0"><image-slot id="ba-tshirts" shape="rect" placeholder="Printed t-shirts"></image-slot></div>
+          <div style="padding:20px 22px 26px">
+            <h3 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:21px;margin:0 0 8px;letter-spacing:-0.01em">T-Shirts</h3>
+            <p style="margin:0;font-size:14.5px;line-height:1.6;color:rgba(31,41,55,0.82);font-weight:500">Screen and DTF printing for teams, campaigns and college events. Bulk rates.</p>
+          </div>
+        </article>
+        <article style="background:#0f766e;color:#fdf6ec">
+          <div style="aspect-ratio:4/3;margin:10px 10px 0"><image-slot id="ba-mementos" shape="rect" placeholder="Memento / trophy"></image-slot></div>
+          <div style="padding:20px 22px 26px">
+            <h3 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:21px;margin:0 0 8px;letter-spacing:-0.01em">Mementos</h3>
+            <p style="margin:0;font-size:14.5px;line-height:1.6;color:rgba(253,246,236,0.82)">Acrylic and wooden trophies, plaques and engraved shields for ceremonies.</p>
+          </div>
+        </article>
+        <article style="background:#1f2937;color:#fdf6ec">
+          <div style="aspect-ratio:4/3;margin:10px 10px 0"><image-slot id="ba-flyers" shape="rect" placeholder="Flyers / pamphlets"></image-slot></div>
+          <div style="padding:20px 22px 26px">
+            <h3 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:21px;margin:0 0 8px;letter-spacing:-0.01em;color:#f4623a">Flyers</h3>
+            <p style="margin:0;font-size:14.5px;line-height:1.6;color:rgba(253,246,236,0.78)">Pamphlets, visiting cards, brochures and bill books on offset or digital press.</p>
+          </div>
+        </article>
+        <article style="background:#0f766e;color:#fdf6ec">
+          <div style="aspect-ratio:4/3;margin:10px 10px 0"><image-slot id="ba-canopy" shape="rect" placeholder="Canopy / standee"></image-slot></div>
+          <div style="padding:20px 22px 26px">
+            <h3 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:21px;margin:0 0 8px;letter-spacing:-0.01em">Canopy &amp; Standees</h3>
+            <p style="margin:0;font-size:14.5px;line-height:1.6;color:rgba(253,246,236,0.82)">Promotional canopies, roll-up standees and backdrops for stalls and launches.</p>
+          </div>
+        </article>
+        <article style="background:#ffffff;border:4px solid #1f2937;display:flex;flex-direction:column;justify-content:space-between;padding:26px 24px;min-height:240px">
+          <h3 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:26px;margin:0;line-height:1.05;letter-spacing:-0.02em">Something<br>not listed?</h3>
+          <div>
+            <p style="margin:0 0 18px;font-size:15px;line-height:1.6;color:rgba(31,41,55,0.78);font-weight:500">If it can be printed, we have probably printed it before. Tell us what you need.</p>
+            <a href="#contact" style="display:inline-block;background:#f4623a;color:#fff;padding:14px 22px;font-weight:700;font-size:13.5px;letter-spacing:0.06em;text-transform:uppercase" style-hover="background:#0f766e">Ask us →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" style="padding:92px 24px;background:#ffffff;color:#1f2937;border-top:1px solid rgba(31,41,55,0.10)">
+    <div style="max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:64px;align-items:center">
+      <div style="position:relative">
+        <div style="position:absolute;inset:auto auto -20px -20px;width:56%;height:58%;background:#f4623a"></div>
+        <div style="position:relative;width:100%;aspect-ratio:1/1;border:5px solid #1f2937">
+          <image-slot id="ba-about" shape="rect" placeholder="Founder / workshop photo"></image-slot>
+        </div>
+      </div>
+      <div>
+        <div style="display:inline-block;background:#1f2937;color:#fdf6ec;font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;padding:7px 14px;margin-bottom:20px">About us</div>
+        <h2 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:clamp(32px,3.6vw,48px);line-height:1;letter-spacing:-0.025em;margin:0 0 26px">A workshop, not<br>a print portal.</h2>
+        <p style="font-size:17.5px;line-height:1.65;color:rgba(31,41,55,0.75);margin:0 0 18px;text-wrap:pretty;font-weight:500">Bhatia Arts opened its doors on a side lane in Phagwara in 1983, hand-painting shop boards and cinema hoardings. Four decades later the tools have changed — flex machines, plotters, digital presses — but the work is still handled by the same family, and still checked by hand before it leaves the shop.</p>
+        <p style="font-size:17.5px;line-height:1.65;color:rgba(31,41,55,0.75);margin:0 0 32px;text-wrap:pretty;font-weight:500">Most of our work comes from shopkeepers, schools, contractors and event organisers who came back a second time, and then kept coming back. That is the only marketing we have ever needed.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px">
+          <span style="background:#1f2937;color:#fdf6ec;padding:11px 18px;font-size:13px;font-weight:700;letter-spacing:0.04em">In-house design</span>
+          <span style="background:#1f2937;color:#fdf6ec;padding:11px 18px;font-size:13px;font-weight:700;letter-spacing:0.04em">Same-day proofs</span>
+          <span style="background:#1f2937;color:#fdf6ec;padding:11px 18px;font-size:13px;font-weight:700;letter-spacing:0.04em">On-site installation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" style="background:#1f2937;color:#fdf6ec;padding:88px 24px">
+    <div style="max-width:1240px;margin:0 auto">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:48px">
+        <h2 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:clamp(32px,3.6vw,48px);line-height:1;letter-spacing:-0.025em;margin:0">Why people keep<br><span style="color:#f4623a">coming back.</span></h2>
+        <p style="margin:0;max-width:34ch;font-size:16px;line-height:1.6;color:rgba(253,246,236,0.62)">Placeholder figures — swap in your real numbers before launch.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px">
+        <div style="background:#0f766e;color:#fdf6ec;padding:34px 26px 38px">
+          <div style="font-family:'Archivo Black',system-ui,sans-serif;font-size:60px;line-height:0.9">40+</div>
+          <div style="margin-top:14px;font-size:15.5px;line-height:1.45;font-weight:600">Years printing for Phagwara and Doaba</div>
+        </div>
+        <div style="background:#f4623a;color:#1f2937;padding:34px 26px 38px">
+          <div style="font-family:'Archivo Black',system-ui,sans-serif;font-size:60px;line-height:0.9">5,000+</div>
+          <div style="margin-top:14px;font-size:15.5px;line-height:1.45;font-weight:600">Businesses, schools and families served</div>
+        </div>
+        <div style="background:#ffffff;color:#1f2937;padding:34px 26px 38px">
+          <div style="font-family:'Archivo Black',system-ui,sans-serif;font-size:60px;line-height:0.9">24 hr</div>
+          <div style="margin-top:14px;font-size:15.5px;line-height:1.45;font-weight:600">Typical turnaround on standard flex jobs</div>
+        </div>
+        <div style="background:#0f766e;color:#fdf6ec;padding:34px 26px 38px">
+          <div style="font-family:'Archivo Black',system-ui,sans-serif;font-size:60px;line-height:0.9">100%</div>
+          <div style="margin-top:14px;font-size:15.5px;line-height:1.45;font-weight:600">Proof approved by you before we print</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <sc-if value="{{ showReviews }}" hint-placeholder-val="{{ true }}">
+  <section id="reviews" style="padding:92px 24px;background:#ffffff">
+    <div style="max-width:1240px;margin:0 auto">
+      <div style="display:inline-block;background:#f4623a;color:#fff;font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;padding:7px 14px;margin-bottom:18px">Reviews</div>
+      <h2 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:clamp(32px,3.6vw,48px);line-height:1;letter-spacing:-0.025em;margin:0 0 44px">What our customers say.</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px">
+        <figure style="margin:0;background:#1f2937;color:#fdf6ec;padding:30px 26px 26px;display:flex;flex-direction:column;gap:18px">
+          <div style="color:#f4623a;font-size:16px;letter-spacing:3px">★★★★★</div>
+          <blockquote style="margin:0;font-size:17px;line-height:1.6">“Gave them the shop board work two days before opening and they still installed it on time. Colours came out exactly like the sample.”</blockquote>
+          <figcaption style="margin-top:auto;padding-top:14px;border-top:2px solid rgba(253,246,236,0.2);font-size:14px"><strong style="display:block;color:#f4623a;font-size:15px">Harpreet Singh</strong><span style="color:rgba(253,246,236,0.68)">Singh Electronics, Phagwara</span></figcaption>
+        </figure>
+        <figure style="margin:0;background:#0f766e;color:#fdf6ec;padding:30px 26px 26px;display:flex;flex-direction:column;gap:18px">
+          <div style="color:#fdf6ec;font-size:16px;letter-spacing:3px">★★★★★</div>
+          <blockquote style="margin:0;font-size:17px;line-height:1.6">“We order 300 t-shirts every year for the college fest. Rates are fair and the print does not crack after washing.”</blockquote>
+          <figcaption style="margin-top:auto;padding-top:14px;border-top:2px solid rgba(253,246,236,0.25);font-size:14px"><strong style="display:block;font-size:15px">Ritu Mehra</strong><span style="color:rgba(253,246,236,0.75)">Cultural Secretary, GNA University</span></figcaption>
+        </figure>
+        <figure style="margin:0;background:#f4623a;color:#1f2937;padding:30px 26px 26px;display:flex;flex-direction:column;gap:18px">
+          <div style="color:#1f2937;font-size:16px;letter-spacing:3px">★★★★★</div>
+          <blockquote style="margin:0;font-size:17px;line-height:1.6;font-weight:500">“My father used them, now I do. Three generations of wedding cards and banners from the same shop.”</blockquote>
+          <figcaption style="margin-top:auto;padding-top:14px;border-top:2px solid rgba(31,41,55,0.3);font-size:14px"><strong style="display:block;font-size:15px">Amandeep Kaur</strong><span style="color:rgba(31,41,55,0.75)">Kaur Boutique, Banga Road</span></figcaption>
+        </figure>
+        <figure style="margin:0;background:#1f2937;color:#fdf6ec;padding:30px 26px 26px;display:flex;flex-direction:column;gap:18px">
+          <div style="color:#f4623a;font-size:16px;letter-spacing:3px">★★★★★</div>
+          <blockquote style="margin:0;font-size:17px;line-height:1.6">“Canopies and standees for eleven promotional stalls, delivered across two districts in one week. No follow-up calls needed.”</blockquote>
+          <figcaption style="margin-top:auto;padding-top:14px;border-top:2px solid rgba(253,246,236,0.2);font-size:14px"><strong style="display:block;color:#f4623a;font-size:15px">Vikram Sood</strong><span style="color:rgba(253,246,236,0.68)">Sood Marketing Services, Jalandhar</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  </sc-if>
+
+  <section id="contact" style="padding:92px 24px;background:#ffffff;color:#1f2937;border-top:1px solid rgba(31,41,55,0.10)">
+    <div style="max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:56px">
+      <div>
+        <div style="display:inline-block;background:#1f2937;color:#fdf6ec;font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;padding:7px 14px;margin-bottom:20px">Contact</div>
+        <h2 style="font-family:'Archivo Black',system-ui,sans-serif;font-size:clamp(32px,3.6vw,48px);line-height:1;letter-spacing:-0.025em;margin:0 0 26px">Tell us what<br>you need printed.</h2>
+        <p style="font-size:18px;line-height:1.6;color:rgba(31,41,55,0.72);margin:0 0 36px;max-width:44ch;font-weight:500">Walk in with a rough idea or send the artwork over WhatsApp. You will get a price and a proof the same day.</p>
+        <dl style="margin:0;display:grid;gap:22px">
+          <div>
+            <dt style="font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(31,41,55,0.55);margin-bottom:6px">Workshop</dt>
+            <dd style="margin:0;font-size:17.5px;line-height:1.5;font-weight:600">Shop No. 14, Banga Road<br>Near Hargobind Nagar, Phagwara<br>Punjab 144401, India</dd>
+          </div>
+          <div>
+            <dt style="font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(31,41,55,0.55);margin-bottom:6px">Phone</dt>
+            <dd style="margin:0;font-size:17.5px;line-height:1.5;font-weight:600"><a href="tel:+911824000000" style="color:#0f766e;border-bottom:2px solid rgba(15,118,110,0.35)">+91 1824 000 000</a> · <a href="tel:+919800000000" style="color:#0f766e;border-bottom:2px solid rgba(15,118,110,0.35)">+91 98000 00000</a></dd>
+          </div>
+          <div>
+            <dt style="font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(31,41,55,0.55);margin-bottom:6px">Email</dt>
+            <dd style="margin:0;font-size:17.5px;line-height:1.5;font-weight:600"><a href="mailto:hello@bhatiaarts.in" style="color:#0f766e;border-bottom:2px solid rgba(15,118,110,0.35)">hello@bhatiaarts.in</a></dd>
+          </div>
+          <div>
+            <dt style="font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(31,41,55,0.55);margin-bottom:6px">Open</dt>
+            <dd style="margin:0;font-size:17.5px;line-height:1.5;font-weight:600">Monday – Saturday, 9:30 am – 8:00 pm</dd>
+          </div>
+        </dl>
+      </div>
+
+      <sc-if value="{{ showForm }}" hint-placeholder-val="{{ true }}">
+      <form onSubmit="{{ onSubmit }}" style="background:#1f2937;color:#fdf6ec;padding:34px;display:grid;gap:18px;align-content:start">
+        <div style="display:grid;gap:7px">
+          <label for="ba-name" style="font-size:12.5px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#f4623a">Name</label>
+          <input id="ba-name" type="text" placeholder="Your name" style="font:inherit;font-size:16px;padding:14px;border:2px solid rgba(253,246,236,0.25);background:#fdf6ec;color:#1f2937">
+        </div>
+        <div style="display:grid;gap:7px">
+          <label for="ba-phone" style="font-size:12.5px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#f4623a">Phone</label>
+          <input id="ba-phone" type="tel" placeholder="+91" style="font:inherit;font-size:16px;padding:14px;border:2px solid rgba(253,246,236,0.25);background:#fdf6ec;color:#1f2937">
+        </div>
+        <div style="display:grid;gap:7px">
+          <label for="ba-job" style="font-size:12.5px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#f4623a">What do you need?</label>
+          <select id="ba-job" style="font:inherit;font-size:16px;padding:14px;border:2px solid rgba(253,246,236,0.25);background:#fdf6ec;color:#1f2937">
+            <option>Flex Banners</option>
+            <option>Boards</option>
+            <option>Stickers</option>
+            <option>T-Shirts</option>
+            <option>Mementos</option>
+            <option>Flyers</option>
+            <option>Canopy &amp; Standees</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div style="display:grid;gap:7px">
+          <label for="ba-msg" style="font-size:12.5px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#f4623a">Details</label>
+          <textarea id="ba-msg" rows="4" placeholder="Sizes, quantity, deadline" style="font:inherit;font-size:16px;padding:14px;border:2px solid rgba(253,246,236,0.25);background:#fdf6ec;color:#1f2937;resize:vertical"></textarea>
+        </div>
+        <button type="submit" style="font:inherit;font-weight:700;font-size:15px;letter-spacing:0.06em;text-transform:uppercase;background:#f4623a;color:#fff;border:0;padding:18px;cursor:pointer" style-hover="background:#0f766e">{{ submitLabel }}</button>
+        <p style="margin:0;font-size:13px;color:rgba(253,246,236,0.62);text-align:center">Or message us on WhatsApp at +91 98000 00000</p>
+      </form>
+      </sc-if>
+    </div>
+  </section>
+
+  <footer style="background:#1f2937;color:rgba(253,246,236,0.68);padding:46px 24px;border-top:5px solid #f4623a">
+    <div style="max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center;font-size:14px">
+      <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">
+        <span style="font-family:'Archivo Black',system-ui,sans-serif;font-size:22px;color:#fdf6ec;letter-spacing:-0.01em">BHATIA ARTS</span>
+        <span style="width:9px;height:9px;background:#f4623a;transform:rotate(45deg);display:block"></span>
+        <span style="font-style:italic;color:rgba(253,246,236,0.6)">the experienced innovation...</span>
+      </div>
+      <div>© 2026 Bhatia Arts, Phagwara. All rights reserved.</div>
+    </div>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showReviews&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;},&quot;showForm&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;},&quot;ctaLabel&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Send Enquiry&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contact&quot;}}">
+class Component extends DCLogic {
+  state = { sent: false };
+  renderVals() {
+    return {
+      showReviews: this.props.showReviews ?? true,
+      showForm: this.props.showForm ?? true,
+      submitLabel: this.state.sent ? "Thanks — we will call you back" : (this.props.ctaLabel ?? "Send Enquiry"),
+      onSubmit: (e) => { e.preventDefault(); this.setState({ sent: true }); }
+    };
+  }
+}
+
+</script>
+</body>
+</html>
